@@ -1,0 +1,44 @@
+<nav class="navbar navbar-inverse bg-inverse">
+  <div class="container">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" (click)="isCollapsed = !isCollapsed" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" routerLink='' routerLinkActive="active">GameTube</a>
+    </div> 
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" [collapse]="isCollapsed">
+      <ul class="nav navbar-nav navbar-left">
+        <li routerLink='/videos/' routerLinkActive="active"><a routerLink='/videos/' routerLinkActive="active">Trailers</a></li>
+      </ul>
+      <app-search [passedQuery]='query'></app-search>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown" dropdown>
+          <a href="#" dropdownToggle class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Links<span class="caret"></span></a>
+          <ul *dropdownMenu class="dropdown-menu">
+            <li role="menuitem"><a class="dropdown-item" href="#">Django Backend</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Angular + Django</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Mini Twitter</a></li>
+            <li role="separator" class="divider"></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">My Resume</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div> 
+  </div>
+</nav>
+
+<div class='container main-container' >
+  <router-outlet></router-outlet>
+</div>
+
+<footer class='container text-center'>
+  <hr/>
+  &copy; Yue Cao<br>
+  Powered By <a href="https://angular.io/">Angular V4</a>
+</footer>

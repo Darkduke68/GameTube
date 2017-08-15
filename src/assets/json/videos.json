@@ -1,0 +1,78 @@
+[
+  {
+    "title": "Nier Automata",
+    "slug": "nier-automata",
+    "embed": "wJxNhJ8fjFk",
+    "image": "assets/games/nier-automata.jpg",
+    "featured": true
+  },
+  {
+    "title": "Fortnite",
+    "slug": "fortnite",
+    "embed": "-IOfn67rfZ4",
+    "image": "assets/games/fortnite.jpg",
+    "featured": true
+  },
+  {
+    "title": "Overwatch",
+    "slug": "overwatch",
+    "embed": "FqnKB22pOC0",
+    "image": "assets/games/overwatch.jpg"
+  },
+  {
+    "title": "Prye",
+    "slug": "prye",
+    "embed": "9jBbq6c9EEQ",
+    "image": "assets/games/pyre.jpg",
+    "featured": true
+  },
+  {
+    "title": "Transistor",
+    "slug": "transistor",
+    "embed": "pJmtn6JP7Ug",
+    "image": "assets/games/transistor.jpg"
+  },
+  {
+    "title": "Shadow of Mordor",
+    "slug": "shadow-of-mordor",
+    "embed": "4rbOTQhasnM",
+    "image": "assets/games/shadow-of-mordor.jpg"
+  },
+  {
+    "title": "Batman: Arkham Knight",
+    "slug": "batman-arkham-knight",
+    "embed": "wsf78BS9VE0",
+    "image": "assets/games/batman-arkham-knight.jpg",
+    "featured": true
+  },
+  {
+    "title": "Lawbreakers",
+    "slug": "lawbreaker",
+    "embed": "5CIe3ztLZJU",
+    "image": "assets/games/lawbreakers.jpg"
+  },
+  {
+    "title": "Tacoma",
+    "slug": "tacoma",
+    "embed": "7QrjsQaKG3c",
+    "image": "assets/games/tacoma.jpg"
+  },
+  {
+    "title": "Lone Echo",
+    "slug": "lone-echo",
+    "embed": "2pmV2mwAV9k",
+    "image": "assets/games/lone-echo.jpg"
+  },
+  {
+    "title": "Hellblade",
+    "slug": "hellblade",
+    "embed": "fBJ0ifVtK5c",
+    "image": "assets/games/hellblade.jpg"
+  },
+  {
+    "title": "Bastion",
+    "slug": "bastion",
+    "embed": "mX48y24t9iU",
+    "image": "assets/games/bastion.jpg"
+  }
+]
